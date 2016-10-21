@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "titillium-bold";
+  src: url('../fonts/titillium/titillium-semibold.eot');
+  src: url('../fonts/titillium/titillium-semiboldd41d.eot?#iefix') format('eot'), url('../fonts/titillium/titillium-semibold.woff') format('woff'), url('../fonts/titillium/titillium-semibold.ttf') format('truetype'), url('../fonts/titillium/titillium-semibold.svg#titilliumbold') format('svg');
+}
+
+@font-face {
+  font-family: "titillium-regular";
+  src: url('../fonts/titillium/titillium-regular.eot');
+  src: url('../fonts/titillium/titillium-regulard41d.eot?#iefix') format('eot'), url('../fonts/titillium/titillium-regular.woff') format('woff'), url('../fonts/titillium/titillium-regular.ttf') format('truetype'), url('../fonts/titillium/titillium-regular.svg#titilliumbold') format('svg');
+}
+
+ol.list > li > * {
+  color: #727272;
+}
+
+a,
+.btn-link,
+.site-header a:hover,
+.icon a:hover h2,
+.icon.style-2 .fa,
+.nav-tabs > li > a:hover,
+.btn.style-3,
+.error-404 h2,
+.page-heading,
+.page-heading a:hover,
+.menu a:hover,
+.statement .style-3,
+.table tbody tr:hover td,
+.dropcaps.style-2:first-letter,
+.list li:before,
+ol.list,
+.post.style-2 header > span,
+.post.style-2 header .fa,
+.page-numbers a:hover,
+.page-numbers span,
+.widget-categories a:hover,
+.socialize a:hover,
+blockquote.style-2:before,
+.panel-group.style-2 .panel-title a:before,
+.contact-info .fa,
+blockquote.style-1:before,
+.comment-list .comment header h1,
+.faq .panel-title a.collapsed:before,
+.faq .panel-title a:after,
+.faq .panel-title a,
+.faq .panel-title a.collapsed:hover,
+.filter button.selected,
+.filter:before,
+.carousel .carousel-control:hover,
+.site-navigation > ul > li.current_page_item > a,
+a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5,
+.ls-altus .primary,
+.site-footer a:hover,
+.ls-altus .ls-nav-next:hover,
+.ls-altus .ls-nav-prev:hover {
+  color: #d54900;
+}
+
+@media (min-width: 768px) {
+  .nav-wrap .fa-search:hover {
+    color: #d54900;
+  }
+}
+.btn.style-3,
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  border-color: #d54900;
+}
+
+@media (min-width: 768px) {
+  .site-navigation > ul > li:hover > .sub-menu, .site-navigation > ul > li .sub-menu .sub-menu {
+    border-bottom: 1px solid #d54900;
+  }
+}
+.contact-form input[type="text"]:focus,
+.contact-form textarea:focus,
+.carousel-indicators li.active,
+.ls-altus .ls-bottom-slidebuttons a.ls-nav-active {
+  border-color: #d54900 !important;
+}
+
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus,
+.carousel-indicators li.active,
+.ls-altus .ls-bottom-slidebuttons a.ls-nav-active {
+  border-color: #d54900 !important;
+}
+
+.icon .fa,
+.posts div a,
+.btn,
+.progress-bar,
+.nav-tabs > li.active:after,
+.menu li.current-menu-ancestor a,
+.pricing-table header,
+.table thead th,
+.mark,
+.post .post-meta button,
+blockquote.style-2:after,
+.panel-title a:before,
+.carousel-indicators li,
+.carousel-indicators .active,
+.ls-altus .ls-bottom-slidebuttons a,
+.site-search,
+.tagcloud a:hover {
+  background-color: #d54900;
+}
+
+@media (max-width: 767px) {
+  .navbar-toggle,
+  .nav-wrap .fa-search {
+    background-color: #d54900;
+  }
+}
+h1, h2, h3, h4, h5,
+.icon.style-2 a:hover .fa,
+.nav-tabs > li > a,
+.nav-tabs > li.active > a,
+.statement,
+.btn.style-3:hover,
+.page-heading a,
+.page-heading a:after,
+p strong,
+.dropcaps:first-letter,
+.page-numbers a,
+.searchform,
+.searchform input[type="text"],
+.socialize a,
+.widget_rss .rss-date,
+.widget_rss cite,
+.panel-title,
+.panel-group.style-2 .panel-title a.collapsed:before,
+blockquote.style-1,
+.comment-list .comment header,
+.faq .panel-title a:before,
+.faq .panel-title a.collapsed,
+.filter button,
+.carousel .carousel-control,
+.ls-altus .ls-nav-next,
+.ls-altus .ls-nav-prev {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .site-navigation .sub-menu li,
+  .site-navigation > ul > li > a,
+  .site-navigation > ul a {
+    color: black;
+  }
+}
+.btn:hover {
+  border-color: black;
+}
+
+.icon a:hover .fa,
+.posts div a:hover,
+.pricing-table header h2,
+.mark.style-2,
+.btn.dark {
+  background-color: black;
+}
+
+.btn:hover {
+  background-color: black !important;
+}
+
+@media (max-width: 767px) {
+  .site-navigation, .site-navigation:after, .site-navigation:before {
+    background-color: #313131;
+  }
+}
+h1, h2, h3, h4, h5, h6,
+.btn,
+.nav-tabs > li > a,
+.page-heading,
+.team em,
+.post header,
+blockquote.style-1,
+.filter button.selected {
+  font-family: "titillium-bold";
+}
+
+.pricing-table header h2,
+.pricing-table header .price,
+.pricing-table header .currency,
+.table thead,
+h1.style-3,
+h2.style-3,
+h3.style-3,
+h4.style-3,
+h5.style-3,
+h6.style-3,
+.page-numbers a,
+.page-numbers span,
+.alert,
+.comment-list .comment header {
+  font-family: "titillium-regular";
+}
+
+.top-bar {
+  color: #c1c1c1;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+.img-circle {
+    border-radius: 50%;
+}
