@@ -3,18 +3,34 @@
 
   {% include head.html %}
 
-  <body>
-
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+<div class="page-heading" style="background-image: url(/images/demo/page-heading.png);">
+      <div class="container">
+        <h1>Blog</h1>
+        <ul class="breadcrumbs">
+          <li><a href="http://destetica.com.br/">Home</a></li>
+          <li>Blog</li>
+        </ul>
       </div>
     </div>
-
+    <section class="container page-with-sidebar">
+      <div class="row">
+        <div class="col-md-9">
+        {{ content }}
+        </div>
+        <aside class="col-md-3 sidebar">
+          <h3 class="widget-title">Categorias</h3>
+          <ul class="widget-categories">
+            <li><a href="#">Opc 1</a></li>
+            <li><a href="#">Opc 2</a></li>
+            <li><a href="#">Opc 3</a></li>
+            <li><a href="#">Opc 4</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+    
     {% include footer.html %}
-
-  </body>
 
 </html>

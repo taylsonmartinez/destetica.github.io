@@ -1,15 +1,26 @@
 ---
 layout: default
 ---
-<div class="post">
+<article class="post">
+	<header>
+		<img src="{{ page.image }}">
+		<div class="post-meta">
+			<ul>
+				<li><button><i class="fa fa-calendar"></i></button><div class="meta-content"><span>15.11.2013</span></div></li>
+				<li><button><i class="fa fa-comment"></i></button><div class="meta-content"><span>3 comments</span></div></li>
+				<li><button><i class="fa fa-folder-open"></i></button><div class="meta-content"><span>Carrer, Photography, Post</span></div></li>
+				<li><button><i class="fa fa-user"></i></button><div class="meta-content"><span>posted by Admin</span></div></li>
+			</ul>
+		</div>
+	</header>
+		<h1>{{ page.title }}</h1>
+	 	<div class="post-content">
+	    	{{ content }}
+	  	</div>
+	  	<div class="tags">
+	    {% for tag in page.tags %}
+	        <a href="/tags/#{{tag}}" class="btn btn-default">{{ tag }}</a>
+	    {% endfor %}
+   	   </div>
+</article>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>

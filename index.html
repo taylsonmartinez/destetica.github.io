@@ -1,23 +1,24 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+        {% for post in site.posts %}
+          <article class="post">
+            <header>
+              <img src="{{ post.image }}">
+              <div class="post-meta">
+                <ul>
+                  <li><button><i class="fa fa-calendar"></i></button><div class="meta-content"><span>15.11.2013</span></div></li>
+                  <li><button><i class="fa fa-comment"></i></button><div class="meta-content"><span>3 comments</span></div></li>
+                  <li><button><i class="fa fa-folder-open"></i></button><div class="meta-content"><span>Carrer, Photography, Post</span></div></li>
+                  <li><button><i class="fa fa-user"></i></button><div class="meta-content"><span>posted by Admin</span></div></li>
+                </ul>
+              </div>
+            </header>
+            <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
+            <div class="post-content">
+              <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+            </div>
+            <a class="btn btn-md" href="{{ post.url | prepend: site.baseurl }}">Leia Mais</a>
+          </article>
+          <hr>
+        {% endfor %}
