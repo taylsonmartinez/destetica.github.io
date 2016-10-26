@@ -6,10 +6,9 @@ layout: default
 		<img src="{{ page.image }}">
 		<div class="post-meta">
 			<ul>
-				<li><button><i class="fa fa-calendar"></i></button><div class="meta-content"><span>15.11.2013</span></div></li>
-				<li><button><i class="fa fa-comment"></i></button><div class="meta-content"><span>3 comments</span></div></li>
-				<li><button><i class="fa fa-folder-open"></i></button><div class="meta-content"><span>Carrer, Photography, Post</span></div></li>
-				<li><button><i class="fa fa-user"></i></button><div class="meta-content"><span>posted by Admin</span></div></li>
+				<li><button><i class="fa fa-calendar"></i></button><div class="meta-content"><span>{{page.date | date: "%d/%m/%y"}}</span></div></li>
+				<li><button><i class="fa fa-folder-open"></i></button><div class="meta-content"><span>{{page.categories}}</span></div></li>
+				<li><button><i class="fa fa-user"></i></button><div class="meta-content"><span>postado por {{page.autor}}</span></div></li>
 			</ul>
 		</div>
 	</header>
@@ -22,5 +21,6 @@ layout: default
 	        <a href="/tags/#{{tag}}" class="btn btn-default">{{ tag }}</a>
 	    {% endfor %}
    	   </div>
+   	   {% include disqus.html %}
 </article>
 
