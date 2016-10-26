@@ -4,7 +4,7 @@ title:  "Pele bronzeada ou pele saudável"
 date:   2016-10-20 12:25:58
 categories: dicas
 autor: D'estética - Estética e beleza
-image: '/images/demo/blog-2.jpg'
+image: '/images/bronzeada.jpg'
 description: "Para nós que moramos em um país tropical, o sol é uma realidade. No verão é impossível ir para a praia ou piscina e não pegar uma corzinha. Mas o excesso de sol é muito perigoso."
 tags:
 - Dicas

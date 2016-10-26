@@ -4,7 +4,7 @@ title:  "O Perigo do uso constante do ar condicionado"
 date:   2016-10-20 12:25:58
 categories: dicas
 autor: D'estética - Estética e beleza
-image: '/images/demo/blog-1.jpg'
+image: '/images/arcondicionado.jpg'
 description: Olá pessoal, tudo bem? Hoje irei falar sobre os cuidados com a saúde e a pele com o uso do ar condicionado."
 tags:
 - Dicas
