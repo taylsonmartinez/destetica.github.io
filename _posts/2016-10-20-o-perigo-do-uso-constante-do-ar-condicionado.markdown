@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "O Perigo do uso constante do ar condicionado"
-date:   2016-11-18 15:25:58
+date:   2016-10-20 15:25:58
 categories: dicas
 autor: D'estética - Estética e beleza
 image: '/images/arcondicionado.jpg'

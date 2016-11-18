@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Alimentação aliada a estética"
-date:   2016-10-20 12:25:58
+date:   2016-11-18 12:25:58
 categories: dicas
 autor: D'estética - Estética e beleza
 image: '/images/alimentacao-aliada-a-estetica.jpg'
