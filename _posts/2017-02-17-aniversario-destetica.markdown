@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Confira as fotos de aniversário de 5 anos do Centre de Estética!"
+title:  "Confira as fotos de aniversário de 5 anos do Centro de Estética!"
 date:   2016-11-30 12:25:58
 categories: dicas
 autor: D'estética - Estética e beleza
