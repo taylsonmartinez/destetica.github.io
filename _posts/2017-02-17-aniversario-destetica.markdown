@@ -1,16 +1,15 @@
 ---
 layout: post
 title:  "Confira as fotos de aniversário de 5 anos do Centre de Estética!"
-date:   2017-02-17 12:25:58
+date:   2016-11-30 12:25:58
 categories: dicas
 autor: D'estética - Estética e beleza
 image: '/images/aniversario-destetica.jpg'
 description: "Celebrar o aniversário do Centro de Estética D'estética é muito significativo para nós, não deixa de ser um marco completar 5 anos de existência. Queremos compartilhar essa alegria com vocês!"
 tags:
 - Dicas
+- Beleza
 - Pele
-- Fotos
-- Galeria
 ---
 
 ![GitHub Logo](/images/album-aniversario/img-01.png)
