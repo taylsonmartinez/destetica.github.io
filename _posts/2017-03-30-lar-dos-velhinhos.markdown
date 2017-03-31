@@ -10,20 +10,20 @@ tags:
 - Fotos
 ---
 
-![GitHub Logo](/images/lar-dos-velhinhos/01.jpg)
+![GitHub Logo](/images/lar-dos-velhinhos/01.jpeg)
 
-![GitHub Logo](/images/lar-dos-velhinhos/02.jpg)
+![GitHub Logo](/images/lar-dos-velhinhos/02.jpeg)
 
-![GitHub Logo](/images/lar-dos-velhinhos/03.jpg)
+![GitHub Logo](/images/lar-dos-velhinhos/03.jpeg)
 
-![GitHub Logo](/images/lar-dos-velhinhos/04.jpg)
+![GitHub Logo](/images/lar-dos-velhinhos/04.jpeg)
 
-![GitHub Logo](/images/lar-dos-velhinhos/05.jpg)
+![GitHub Logo](/images/lar-dos-velhinhos/05.jpeg)
 
-![GitHub Logo](/images/lar-dos-velhinhos/06.jpg)
+![GitHub Logo](/images/lar-dos-velhinhos/06.jpeg)
 
-![GitHub Logo](/images/lar-dos-velhinhos/07.jpg)
+![GitHub Logo](/images/lar-dos-velhinhos/07.jpeg)
 
-![GitHub Logo](/images/lar-dos-velhinhos/08.jpg)
+![GitHub Logo](/images/lar-dos-velhinhos/08.jpeg)
 
-![GitHub Logo](/images/lar-dos-velhinhos/09.jpg)
+![GitHub Logo](/images/lar-dos-velhinhos/09.jpeg)
